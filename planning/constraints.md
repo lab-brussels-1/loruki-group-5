@@ -7,10 +7,12 @@ Some boundaries around our project.
 ### Time
 
 2 Week deadline:
+
 - First week: Main page (Must-haves)
 - Second week: All the extra features and pages (Should-haves)
 
 ## Internal: Involuntary
+
 - Differences of Mac and Windows
 
 ### Technology
@@ -23,6 +25,7 @@ Some boundaries around our project.
 - Inspect function of the browser
 
 ## Internal: Voluntary
+
 ### Avaibility
 
 - 5 hours per day /person
