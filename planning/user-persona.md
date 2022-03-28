@@ -14,5 +14,6 @@ Mr X from SHEAM company (e-commerce like Amazon) is looking for help from Loruki
 - **Frustrations**: The current deployment platform is slow and hard to use
 - **Scenario 2**: The web development team said that the current platform is not
   good enough so Mr X has to find a solution. Mr X wants his team to work on the
-  easiest and fastest platform out there to increase productivity of the team.
-  ![this is our user persona](../assets/user-persona.jpeg)
+  eacsiest and fastest platform out there to increase productivity of the team.
+  ### Here is our user persona
+  ![Check out our user persona](../assets/mrx.jpeg)
