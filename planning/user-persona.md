@@ -15,4 +15,4 @@ Mr X from SHEAM company (e-commerce like Amazon) is looking for help from Loruki
 - **Scenario 2**: The web development team said that the current platform is not
   good enough so Mr X has to find a solution. Mr X wants his team to work on the
   easiest and fastest platform out there to increase productivity of the team.
-  ![this is our user persona](../loruki-group-5/assets/User-persona.jpeg)
+  ![this is our user persona](../assets/user-persona.jpeg)
