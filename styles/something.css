@@ -71,23 +71,13 @@ body {
   height: 100%;
 }
 
-.navigation a {
-  height: 100%;
-  display: table;
-  float: left;
-  padding: 1px 20px;
-}
-
-.navigation a li {
+.navigation li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   color: white;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
-}
-
-.navigation ul li {
-  color: black;
-  transition: 0.2s;
+  float: left;
+  padding: 1px 20px;
 }
