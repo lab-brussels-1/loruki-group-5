@@ -1,3 +1,93 @@
+:root {
+  --primary-color: rgb(13, 114, 245);
+}
+
 body {
   background-color: white;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  display: block;
+  background-color: rgb(0, 160, 252);
+}
+
+.inner_header {
+  width: 500px;
+  height: 100%;
+  display: block;
+  background-color: rgb(51, 175, 224);
+  margin-right: auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  max-width: 1100px;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 200;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  left: 140%;
+}
+
+.logo_container h1 span {
+  font-weight: 800;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -60px;
+  right: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 1px 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navigation ul li {
+  color: black;
+  transition: 0.2s;
 }
