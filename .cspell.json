@@ -1,6 +1,22 @@
 {
   "language": "en",
-  "words": ["Loruki"],
+  "words": [
+    "Loruki",
+    "socio",
+    "SHEAM",
+    "Andrii",
+    "X",
+    "hadoan",
+    "Maha",
+    "Swapna",
+    "excalidraw",
+    "Avaibility",
+    "Wireframe",
+    "wireframe",
+    "DELOYMENT",
+    "navi",
+    "eacsiest"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
