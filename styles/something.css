@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
+:root {
+  --primary-color: hsl(210, 97%, 47%);
+  --secondary-color: rgb(113, 172, 152);
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +16,7 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lato", Times, serif;
   color: #333;
   line-height: 1.6;
 }
@@ -148,6 +157,27 @@ img {
   -ms-transform: skewY(-3deg);
 }
 
+/* Stats */
+
+.stats {
+  padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* Utilities */
 
 .card {
@@ -211,4 +241,46 @@ img {
   padding: 20px;
   width: 600px;
   height: 150px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.text-center {
+  text-align: center;
 }
