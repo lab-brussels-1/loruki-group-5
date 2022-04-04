@@ -148,6 +148,30 @@ img {
   -ms-transform: skewY(-3deg);
 }
 
+/* Supported Languages */
+
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+  background: #b4becb;
+}
+
 /* Utilities */
 
 .card {
@@ -176,28 +200,5 @@ img {
 
 .btn:hover {
   transform: scale(0.98);
-}
-
-/* Supported Languages */
-
-.languages .flex {
-  flex-wrap: wrap;
-}
-
-.languages .card {
-  text-align: center;
-  margin: 18px 10px 40px;
-  transition: transform 0.2s ease-in;
-}
-
-.languages .card h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: aqua;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.languages .card:hover {
-  transform: translateY(-15px);
-  background: #b4becb;
+  background-color: rgb(255, 255, 255);
 }
