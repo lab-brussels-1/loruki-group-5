@@ -308,3 +308,49 @@ img {
   transform: translateY(-15px);
   background: #b4becb;
 }
+
+.img2 {
+  width: 300px;
+  padding: 5px;
+  justify-self: flex-end;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: rgb(113, 172, 152);
+  color: rgb(0, 0, 0);
+}
+
+.features-main .grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+
+.features-main .card > i {
+  margin-right: 20px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: rgb(113, 172, 152);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-2:hover {
+  border: 4px rgb(216, 132, 53) solid;
+}
