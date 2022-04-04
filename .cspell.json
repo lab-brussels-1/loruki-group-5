@@ -19,7 +19,15 @@
     "chemboth",
     "andriivam",
     "Lubbad",
-    "Mlopez"
+    "Mlopez",
+    "fontello",
+    "iefix",
+    "opentype",
+    "TWBS",
+    "Windozze",
+    "truetype",
+    "mixcloud",
+    "fontawesome"
   ],
   "ignorePaths": [
     "node_modules/**",
