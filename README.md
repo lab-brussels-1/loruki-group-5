@@ -1,14 +1,20 @@
-# (project name)
+# Loruki - a production of group 5
 
-<!-- describe your project -->
+<!-- our project -->
 
-## Getting Started
+In this project, we need to replicate the original website as a team
+[Loruki](https://zen-carson-c10c9f.netlify.app/)
 
-<!-- a guide to using this repository -->
+## Our team 🍏
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
+- [Swapna chemboth](https://github.com/SWAPNACHEMBOTH)
+- [andriivam](https://github.com/andriivam)
+- [MahaLubbad](https://github.com/MahaLubbad)
+- [hadoan149](https://github.com/hadoan149/HadoanHYF)
+- [EliasMlopez99](https://github.com/EliasMlopez99)
+
+🚧 **Website is still under construction, check back later** 👷
+![Here is a cute hamster](../loruki-group-5/assets/hamster.gif)
 
 ## Code Quality Checks
 
