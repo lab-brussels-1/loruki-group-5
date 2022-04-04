@@ -193,8 +193,11 @@ img {
 .languages .card h4 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .languages .card:hover {
   transform: translateY(-15px);
+  background: #b4becb;
 }
