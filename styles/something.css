@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 :root {
-  --primary-color: rgb(113, 172, 152);
+  --primary-color: hsl(210, 97%, 47%);
   --secondary-color: rgb(113, 172, 152);
   --dark-color: #002240;
   --light-color: #f4f4f4;
@@ -247,32 +247,6 @@ img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* Backgrounds & colored buttons */
-
-.bg-primary,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.bg-secondary,
-.btn-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-
-.bg-dark,
-.btn-dark {
-  background-color: var(--dark-color);
-  color: #fff;
-}
-
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
-}
-
 /* Text colors */
 .text-primary {
   color: var(--primary-color);
@@ -309,11 +283,6 @@ img {
 
 .text-center {
   text-align: center;
-}
-
-/* Cloud */
-.cloud .grid {
-  grid-template-columns: 4fr 3fr;
 }
 
 /* Supported Languages */
