@@ -312,6 +312,25 @@ img {
   text-align: center;
 }
 
+/* cli */
+.cli {
+  padding: 50px 0;
+}
+
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid img {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.cli .card h3 {
+  margin: 0;
+}
+
 /* Cloud */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
