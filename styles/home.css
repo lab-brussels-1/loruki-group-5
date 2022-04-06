@@ -80,7 +80,7 @@ img {
 .showcase {
   height: 400px;
   background-color: #047aed;
-  color: #fff;
+  color: rgb(255, 255, 255);
   position: relative;
 }
 

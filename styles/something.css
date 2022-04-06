@@ -65,6 +65,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+  overflow-y: hidden;
 }
 
 .navbar ul {
@@ -350,12 +351,6 @@ img {
   padding: 2rem 0;
 }
 
-.bg-primary,
-.btn-primary {
-  background-color: rgb(113, 172, 152);
-  color: rgb(0, 0, 0);
-}
-
 .features-main .grid > *:first-child {
   grid-column: 1 / span 3;
 }
@@ -384,4 +379,25 @@ img {
 
 .btn-2:hover {
   border: 4px rgb(216, 132, 53) solid;
+}
+
+/* Footer */
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000;
+}
+
+.fa-facebook:hover {
+  color: #1773ea;
+}
+
+.fa-instagram:hover {
+  color: #b92f8b;
+}
+
+.fa-twitter:hover {
+  color: #1c9cea;
 }
