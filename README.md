@@ -14,7 +14,7 @@ In this project, we need to replicate the original website as a team
 - [EliasMlopez99](https://github.com/EliasMlopez99)
 
 🚧 **Website is still under construction, check back later** 👷
-![Here is a cute hamster](../loruki-group-5/assets/hamster.gif)
+![Here is a cute hamster](../assets/hamster.gif)
 
 ## Code Quality Checks
 
