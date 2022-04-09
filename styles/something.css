@@ -516,54 +516,6 @@ pre {
   background-color: orange;
 } */
 
-.my-4 {
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(241, 241, 241, 1) 50%,
-    rgba(225, 225, 225, 1) 51%,
-    rgba(246, 246, 246, 1) 100%
-  );
-}
-
-.intro {
-  box-shadow: 5px 5px 10px 5px rgb(87, 84, 84);
-  border-radius: 50px;
-
-  /* Old browsers */
-
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(248, 255, 232, 1) 0%,
-    rgba(227, 245, 171, 1) 51%,
-    rgba(183, 223, 45, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    rgba(248, 255, 232, 1) 0%,
-    rgba(227, 245, 171, 1) 51%,
-    rgba(183, 223, 45, 1) 100%
-  );
-}
-
-.p-3 {
-  box-shadow: 5px 5px 5px 5px rgb(87, 84, 84);
-  border-radius: 50px;
-  margin-top: 30px;
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(248, 255, 232, 1) 0%,
-    rgba(227, 245, 171, 1) 51%,
-    rgba(183, 223, 45, 1) 100%
-  );
-background: -webkit-linear-gradient(
-    -45deg,
-    rgba(248, 255, 232, 1) 0%,
-    rgba(227, 245, 171, 1) 51%,
-    rgba(183, 223, 45, 1) 100%
-  );
-}
-
 /* Animations */
 
 @keyframes slideInFromLeft {
