@@ -534,7 +534,6 @@ pre {
 
   background: -moz-linear-gradient(
     -45deg,
-
     rgba(248, 255, 232, 1) 0%,
     rgba(227, 245, 171, 1) 51%,
     rgba(183, 223, 45, 1) 100%
@@ -557,8 +556,7 @@ pre {
     rgba(227, 245, 171, 1) 51%,
     rgba(183, 223, 45, 1) 100%
   );
-
-  background: -webkit-linear-gradient(
+background: -webkit-linear-gradient(
     -45deg,
     rgba(248, 255, 232, 1) 0%,
     rgba(227, 245, 171, 1) 51%,
