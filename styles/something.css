@@ -96,6 +96,7 @@ img {
 }
 
 /* Showcase */
+
 .showcase {
   height: 400px;
   background: rgb(113, 172, 152);
@@ -183,6 +184,10 @@ img {
 .stats-heading {
   max-width: 500px;
   margin: auto;
+}
+
+.docs-main h3 {
+  margin: 20px 0;
 }
 
 .stats .grid h3 {
@@ -299,6 +304,7 @@ img {
 }
 
 /* Text colors */
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -316,6 +322,7 @@ img {
 }
 
 /* Text sizes */
+
 .lead {
   font-size: 20px;
 }
@@ -337,6 +344,7 @@ img {
 }
 
 /* cli */
+
 .cli {
   padding: 50px 0;
 }
@@ -344,6 +352,11 @@ img {
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
 }
 
 .cli .grid img {
@@ -356,6 +369,7 @@ img {
 }
 
 /* Cloud */
+
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
@@ -398,6 +412,10 @@ img {
   grid-column: 1 / span 3;
 }
 
+.alert i {
+  margin-right: 10px;
+}
+
 .features-main .card > i {
   margin-right: 20px;
 }
@@ -425,6 +443,7 @@ img {
 }
 
 /* Footer */
+
 .footer .social a {
   margin: 0 10px;
 }
@@ -446,22 +465,12 @@ img {
 }
 
 /* Docs */
+
 /* Header docs */
-
-.docs-head img {
-  width: 200px;
-  justify-self: flex-end;
-}
-
-.docs-main h3 {
-  margin: 20px 0;
-}
 
 .docs-main .grid {
   grid-template-columns: 1fr 2fr;
   align-items: flex-start;
-  /* background-image: url("/assets/bg_repeat.jpg"); */
-  /* background: #ece89d; */
 }
 
 .docs-main nav li {
@@ -483,15 +492,12 @@ img {
 }
 
 /* Alert */
+
 .alert {
   background-color: var(--light-color);
   padding: 10px 20px;
   font-weight: bold;
   margin: 15 0;
-}
-
-.alert i {
-  margin-right: 10px;
 }
 
 .alert-success {
@@ -506,16 +512,11 @@ pre {
   padding: 10px;
 }
 
-/* .link li { 
-  text-align: center;
-}
- */
 /* .btn-primary:hover {
   background-color: orange;
 } */
 
 .my-4 {
-  /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
     rgba(255, 255, 255, 1) 0%,
@@ -528,15 +529,16 @@ pre {
 .intro {
   box-shadow: 5px 5px 10px 5px rgb(87, 84, 84);
   border-radius: 50px;
-  margin: 30px 0px 30px 0;
 
   /* Old browsers */
+
   background: -moz-linear-gradient(
     -45deg,
+
     rgba(248, 255, 232, 1) 0%,
     rgba(227, 245, 171, 1) 51%,
     rgba(183, 223, 45, 1) 100%
-  ); /* FF3.6-15 */
+  );
   background: -webkit-linear-gradient(
     -45deg,
     rgba(248, 255, 232, 1) 0%,
@@ -549,14 +551,13 @@ pre {
   box-shadow: 5px 5px 5px 5px rgb(87, 84, 84);
   border-radius: 50px;
   margin-top: 30px;
-
-  /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
     rgba(248, 255, 232, 1) 0%,
     rgba(227, 245, 171, 1) 51%,
     rgba(183, 223, 45, 1) 100%
-  ); /* FF3.6-15 */
+  );
+
   background: -webkit-linear-gradient(
     -45deg,
     rgba(248, 255, 232, 1) 0%,
@@ -564,7 +565,9 @@ pre {
     rgba(183, 223, 45, 1) 100%
   );
 }
+
 /* Animations */
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
