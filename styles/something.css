@@ -96,6 +96,7 @@ img {
 }
 
 /* Showcase */
+
 .showcase {
   height: 400px;
   background: rgb(113, 172, 152);
@@ -155,6 +156,7 @@ img {
 
 .showcase-form input:focus {
   outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 .showcase::before,
@@ -182,6 +184,10 @@ img {
 .stats-heading {
   max-width: 500px;
   margin: auto;
+}
+
+.docs-main h3 {
+  margin: 20px 0;
 }
 
 .stats .grid h3 {
@@ -217,6 +223,15 @@ img {
 .btn-outline {
   background-color: transparent;
   border: 1px #fff solid;
+}
+
+.btn-outline:hover {
+  background-color: #333;
+  color: yellow;
+}
+
+.btn-outline:active {
+  background-color: green;
 }
 
 .btn:hover {
@@ -289,6 +304,7 @@ img {
 }
 
 /* Text colors */
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -306,6 +322,7 @@ img {
 }
 
 /* Text sizes */
+
 .lead {
   font-size: 20px;
 }
@@ -327,6 +344,7 @@ img {
 }
 
 /* cli */
+
 .cli {
   padding: 50px 0;
 }
@@ -334,6 +352,11 @@ img {
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
 }
 
 .cli .grid img {
@@ -346,6 +369,7 @@ img {
 }
 
 /* Cloud */
+
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
@@ -388,6 +412,10 @@ img {
   grid-column: 1 / span 3;
 }
 
+.alert i {
+  margin-right: 10px;
+}
+
 .features-main .card > i {
   margin-right: 20px;
 }
@@ -415,6 +443,7 @@ img {
 }
 
 /* Footer */
+
 .footer .social a {
   margin: 0 10px;
 }
@@ -435,7 +464,60 @@ img {
   color: #1c9cea;
 }
 
+/* Docs */
+
+/* Header docs */
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.docs-main a:hover {
+  background-color: rgb(182, 182, 182);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.docs-main a:active {
+  background-color: green;
+}
+
+/* Alert */
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15 0;
+}
+
+.alert-success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+code,
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* .btn-primary:hover {
+  background-color: orange;
+} */
+
 /* Animations */
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
